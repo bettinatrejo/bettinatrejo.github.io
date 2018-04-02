@@ -2,46 +2,31 @@ body {
     /*font-family: 'Sacramento', cursive;*/
     /*font-family: 'Caveat', cursive;*/
     box-sizing: border-box;
-    background-color: #030403;
-    padding-left: 100px;
-    padding-right: 100px;
+    background-color: #6c2d45;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .main-body {
     background-color: white;
 }
 
+.navbar-space {
+    margin-left: 65px;
+    margin-right: 65px;
+}
 
-header {
+.navbar-color {
     background-color: white;
+    color: maroon;
 }
 
-
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 25%;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-.navigation-bar > a {
-    border-top: solid 3px black;
-    border-bottom: solid 3px black;
-    display: inline-block;
-    /*vertical-align: top;*/
-    margin-right: 20px;
-    margin-top: 50px;
-    /*padding-top: 40px;*/
-    font-size: 20px;
-    color:black;
-    /*height: 80px;*/
-    /*line-height: 80px;*/
-
-
+.navbar-color a:hover {
+    text-decoration: none;
+    color: hotpink;
 }
 
-.navigation-bar a:hover {
+.navbar-color a:active {
     text-decoration: none;
     color: maroon;
 }
@@ -52,9 +37,9 @@ footer {
 
 .banner > img {
     display: inline-block;
-    max-width: 100%;
-
+    max-width: 90%;
     opacity: 0.4;
+    background-color: white;
 
 }
 
@@ -72,7 +57,7 @@ footer {
     color: #000000;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 4em;
     display: inline;
 
 
@@ -80,6 +65,5 @@ footer {
 
 .info {
     text-align: center;
-
-    font-size: 60px;
+    font-size: 2em;
 }
